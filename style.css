@@ -1,54 +1,61 @@
-.form-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 20px 0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.form-wrapper{
+display: flex;
+justify-content: center;
+margin: 20px 0;
+flex-direction: column;
 }
-#searchInput {
-  width: 75%;
-  padding: 5px;
-  border-radius: 5px;
-  text-align: center;
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    column-gap: 10px;
 }
-.button-wrapper {
-  margin: 10px 0;
+#searchInput{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
 }
-#searchButton {
-  width: 110px;
-  border-radius: 5px;
-  padding: 5px;
-  background-color: #464646;
-  color: white;
-  box-shadow: 1px 3px 5px lightgray;
-  border: none;
-  cursor: pointer;
-  margin-right: 5px;
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
-#clearButton {
-  width: 110px;
-  border-radius: 5px;
-  padding: 5px;
-  background-color: #cc3838;
-  color: white;
-  box-shadow: 1px 3px 5px lightgray;
-  border: none;
-  cursor: pointer;
-  margin-left: 5px;
+#searchButton{
+    width: 110px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #7a7f87;
+    color: white;
+    box-shadow: 1px 3px 5px lightgrey ;
+    border: none;
+    cursor: pointer;
 }
-.imageList-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+#clearButton{
+    width: 110px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #89050a;
+    color: white;
+    box-shadow: 1px 3px 5px lightgrey;
+    border: none;
+    cursor: pointer;
 }
-.imageList-wrapper > .card {
-  margin: 20px;
-  border: 1px solid gray;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 3px 5px 8px gray;
+.imageList-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-content: center;
+}
+.card{
+    border: 1px solid grey;
+    padding: 15px;
+border-radius: 5px;
+box-shadow: 5px 5px 8px grey;
 }
